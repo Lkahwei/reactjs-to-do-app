@@ -1,0 +1,21 @@
+.task-item {
+    background-color: #ffa500;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 1rem;
+    border:#111111 1px solid;
+    
+    &__checkbox {
+        float: left;
+    }
+
+    &__title {
+        color: #111111;
+    }
+    
+    &__delete-button {
+        float: right;
+        background-color: #111111;
+        color: white;
+    }
+}

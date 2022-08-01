@@ -1,0 +1,31 @@
+.header {
+    background-color: #1b1b1b;
+    position: relative;
+    padding: 1.5rem;
+
+    &__text {
+        display: inline-block;
+        font-size: 2rem;
+        font-weight: 700;
+        padding: .5rem 0;
+    }
+}
+
+.modal-toggle {
+    font-size: 1.5rem;
+    
+    &__button {
+        position: absolute;
+        top: 1.5rem;
+        left: .5rem;
+        padding: .8rem;
+        border: 3px solid #ffa500;
+        border-radius: 5px;
+    }
+
+    &__text {
+        position: relative;
+        bottom: .1rem;
+        margin-left: .3rem;
+    }
+}
